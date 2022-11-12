@@ -37,6 +37,9 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="startButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="9iu-2X-KMK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -49,10 +52,14 @@
                             <constraint firstItem="pmi-yz-KjN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wXo-8l-1aT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloLabel" destination="lyA-kg-kTF" id="0Nh-1F-QT6"/>
+                        <outlet property="startButton" destination="pmi-yz-KjN" id="GvA-LL-HS8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-242" y="80"/>
+            <point key="canvasLocation" x="-263" y="-24"/>
         </scene>
     </scenes>
     <resources>
