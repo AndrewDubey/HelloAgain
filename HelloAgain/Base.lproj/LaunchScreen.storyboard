@@ -20,7 +20,7 @@
                                 <rect key="frame" x="95.5" y="268" width="129" height="32.5"/>
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.49447741890000002" green="0.13214290779999999" blue="0.081373806549999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="shadowColor" red="0.49447741890000002" green="0.13214290779999999" blue="0.081373806549999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
